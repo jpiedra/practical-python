@@ -1,0 +1,9 @@
+# this is a list of completed chapters
+# pick up by starting on the chapter AFTER the last one in this list...
+https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/01_Python.html
+https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/02_Hello_world.html
+https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/03_Numbers.html
+https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/04_Strings.html
+https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/05_Lists.html
+https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/06_Files.html
+https://dabeaz-course.github.io/practical-python/Notes/02_Working_with_data/01_Datatypes.html
