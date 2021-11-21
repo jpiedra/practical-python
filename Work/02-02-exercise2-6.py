@@ -13,10 +13,10 @@ def read_prices(filename):
     arguments
         filename: path to the CSV file to read for processing total cost
     return values
-        portfolio: a list of tuples, built using the data from your CSV file
+        prices: a list of tuples, built using the data from your CSV file
     '''
     # always set counters, or other variables, first!
-    portfolio = {}
+    prices = {}
     
     try:
         file = open(filename, 'r')
@@ -26,16 +26,16 @@ def read_prices(filename):
 
         for row in rows:
             if len(row) == 2: # to account for that last 'blank' line
-                portfolio[row[0]] = float(row[1])
+                prices[row[0]] = float(row[1])
 
         file.close()
     except OSError:
         print(f'Error opening file: {filename}')
 
     # send the return value last!
-    return portfolio
+    return prices
 
 # modify this version so it also reads arguments from the command line...
-portfolio = read_prices('Data/prices.csv')
-pprint(portfolio) # 'pretty print', requires import of pprint module
+prices = read_prices('Data/prices.csv')
+pprint(prices) # 'pretty print', requires import of pprint module
 

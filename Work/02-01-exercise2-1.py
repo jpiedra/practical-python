@@ -74,7 +74,7 @@ for row in rows:
     s['cost'] = "{0:.2f}".format(s['shares'] * s['price'])
     # using a trick from our notes...
     print("#########################")
-    for k in s.keys():
+    for k in s:
         print(f"{k}: {s[k]}")
     # print(f"Total cost of {s['shares']} share(s) of {s['name']} stock at ${s['price']} per share = ${s['cost']}")
 

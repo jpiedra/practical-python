@@ -124,3 +124,21 @@ keys
 del stock1['name']
 keys
 
+# a more elegant way to work with keys/values together is to use the items() method
+# this method will give you (key, value) tuples:
+
+stock1 = {
+    'name': 'GOOG',
+    'shares': 100,
+    'price': 490.1
+}
+
+items = stock1.items()
+items
+
+for k, v in stock1.items():
+    print(f'{k} = {v}')
+
+# if you have tuples, such as with 'items', you can create a dictionary using the dict() function...
+stock7 = dict(items)
+stock7
