@@ -7,3 +7,4 @@ https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/04_String
 https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/05_Lists.html
 https://dabeaz-course.github.io/practical-python/Notes/01_Introduction/06_Files.html
 https://dabeaz-course.github.io/practical-python/Notes/02_Working_with_data/01_Datatypes.html
+https://dabeaz-course.github.io/practical-python/Notes/02_Working_with_data/02_Containers.html
