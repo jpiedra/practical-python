@@ -3,7 +3,7 @@
 # Exercise 1.27
 
 import csv
-file = open('Data\portfolio.csv')
+file = open(r'Data\portfolio.csv')
 rows = csv.reader(file)
 
 # skip the headers
